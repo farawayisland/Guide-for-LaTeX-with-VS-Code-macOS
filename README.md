@@ -11,12 +11,13 @@ You can install the package manager Homebrew along with Visual Studio Code by ru
 brew install --cask visual-studio-code
 ```
 
-## Installing a [TeX Distribution](https://tug.org/levels.html)
-### [`MacTeX-no-GUI`](https://formulae.brew.sh/cask/mactex-no-gui) (Recommended)
+## Step 1. Installing a [TeX Distribution](https://tug.org/levels.html)
+- [`MacTeX-no-GUI`](https://formulae.brew.sh/cask/mactex-no-gui) (Recommended)
 ```
 brew install --cask mactex-no-gui
 ```
-### [`TeX Live`](https://formulae.brew.sh/formula/texlive)
+***or***
+- [`TeX Live`](https://formulae.brew.sh/formula/texlive)
 ```
 brew install texlive
 ```
@@ -28,5 +29,5 @@ sudo tlmgr update --self
 sudo tlmgr update --all
 ```
 
-## Installing [`LaTeX Workshop`](https://github.com/James-Yu/LaTeX-Workshop)
+## Step 2. Installing [`LaTeX Workshop`](https://github.com/James-Yu/LaTeX-Workshop)
 Go to the [Visual Studio Marketplace web page](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop) and click "Install." You can also install the extension directly from `Visual Studio Code.app` in the `View > Extensions` menu (Command+Shift+X).
