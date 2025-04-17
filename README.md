@@ -20,5 +20,13 @@ brew install --cask mactex-no-gui
 ```
 brew install texlive
 ```
+Afterwards, make sure to update the installed TeX distribution with the following commands:
+```
+sudo tlmgr update --self
+```
+```
+sudo tlmgr update --all
+```
+
 ## Installing [`LaTeX Workshop`](https://github.com/James-Yu/LaTeX-Workshop)
 Go to the [Visual Studio Marketplace web page](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop) and click "Install." You can also install the extension directly from `Visual Studio Code.app` in the `View > Extensions` menu (Command+Shift+X).
