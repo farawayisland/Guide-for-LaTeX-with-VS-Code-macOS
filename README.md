@@ -1,4 +1,4 @@
-# (La)TeX Installation with Visual Studio Code (macOS)
+# Guide for (La)TeX with Visual Studio Code (macOS)
 ## Dependencies
 - [`Homebrew`](https://brew.sh/)
 - [`Visual Studio Code`](https://formulae.brew.sh/cask/visual-studio-code)
